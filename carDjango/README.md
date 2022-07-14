@@ -1,6 +1,6 @@
 # CarDetail
 
-#### A web app designed to log weather in any city.
+#### 
 <img src="images/homepage.png" alt="Home Page "/>
 <img src="images/Add.png" alt="Add Form Dipslay"/>
 <img src="images/List.png" alt="List Dipslay"/>

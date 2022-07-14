@@ -1,9 +1,10 @@
-
 {% extends 'base.html' %} {% block content %}
+<style>     body{       background-image: url(https://media0.giphy.com/media/zvYUTbMzJmSAGtjLqF/giphy.gif?cid=790b7611bfe7219d7308ef12767dd93b82db15a7b0a7e7b7&rid=giphy.gif&ct=g);     }   </style>
+
 {% if object %}
 <h1>Edit <span class="teal-text">{{object.car}}</span></h1>
 {% else %}
-<h1>Add Car</h1>
+<h1 class='header-text'>Add Car</h1>
 {% endif %}
 
 <!-- Leaving the action empty makes the form post to the same url used to display it -->
@@ -14,6 +15,6 @@
     <!-- Render the inputs inside of <tr>s & <td>s -->
     {{ form.as_table }}
   </table>
-  <input type="submit" value="Submit!" class="btn" />
+  <input type="submit" value="Submit!" class="btn-3" />
 </form>
 {% endblock %}

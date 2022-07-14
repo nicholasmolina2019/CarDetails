@@ -21,7 +21,8 @@ class Car(models.Model):
   brand = models.CharField(max_length=100)
   description = models.CharField(max_length=100)
   year = models.IntegerField()
-  
+  user = models.ForeignKey(User, on_delete=models.CASCADE)
+
   
 class Specs(models.Model):
   mpg = models.CharField(max_length=6)
@@ -42,6 +43,13 @@ class Specs(models.Model):
   
 class Meta:
   ordering = ['-mpg']
+  
+class Photo(models.Model):
+    url = models.CharField(max_length=200)
+    car = models.ForeignKey(Car, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"Photo for car_id: {self.car_id} @{self.url}"
 
 
   

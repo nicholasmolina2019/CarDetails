@@ -1,14 +1,11 @@
 # CarDetail
 
-#### 
+#### This app serves the purpose of introducing allowing car enthuiast a way to keep track of all there favorite cars or specific informations regarding cars
 <img src="images/homepage.png" alt="Home Page "/>
 <img src="images/Add.png" alt="Add Form Dipslay"/>
 <img src="images/List.png" alt="List Dipslay"/>
 
 
-## Description
-This app serves the purpose of introducing allowing car enthuiast a way to keep track of all there favorite cars or 
-specific informations regarding cars.
 
 ## <a name="technologiesused"></a>Technologies Used
 * HTML5

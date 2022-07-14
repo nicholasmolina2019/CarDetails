@@ -6,6 +6,7 @@ body {
     background-image: url(https://media0.giphy.com/media/zvYUTbMzJmSAGtjLqF/giphy.gif?cid=790b7611bfe7219d7308ef12767dd93b82db15a7b0a7e7b7&rid=giphy.gif&ct=g);
     background: #181818;
   }
+  
 
    h2,h4 {
     font-size: 36px;
@@ -13,9 +14,10 @@ body {
     text-align: center;
     color: rgba(255, 255, 255);
 }
-.header-text, h1{
+h1.header-text{
     color: rgba(255, 255, 255);
     text-align: center;
+    margin: 16.8rem 0 1.68rem 0;
     font-size: 36px;
 }
 .welcome{
@@ -294,3 +296,13 @@ table{
 .teal-text {
         color: #070707 !important;
     }
+
+h1.car-detail {
+    color: rgba(255, 255, 255);
+    margin: 3.8000000000000007rem 0 1.68rem 0;
+    font-size: 36px;
+    }
+h1.carlist{
+    color: rgba(255, 255, 255);
+    font-size: 36px;
+}
